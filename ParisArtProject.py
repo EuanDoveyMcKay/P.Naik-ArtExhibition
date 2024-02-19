@@ -14,11 +14,11 @@ def InputPressed():
     # Random number between 1 and 1000 to act as where in the range
 
     if ChanceInt <= 970:
-        #os.system("lp %s" % SadFaceImage.png)
+        #os.system("lp SadFaceImage.png")
         return True
     
     else:
-        #os.system("lp %s" % SmileyFaceImage.png)
+        #os.system("lp SmileyFaceImage.png")
         return False
     # replace Booleans with the commented lines when code needs actual running
     
