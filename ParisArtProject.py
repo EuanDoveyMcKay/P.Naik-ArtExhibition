@@ -14,12 +14,12 @@ def InputPressed():
     # Random number between 1 and 1000 to act as where in the range
 
     if ChanceInt <= 970:
-        os.system("lp -o fit-to-page SadFaceImage.png")
+        os.system("lp -o fit-to-page SadFaceImage.jpg")
     
     # Prints the correct image for the result... MAKE SURE IMAGE FILES IN SAME DIR AS .PY!!!!!!
 
     else:
-        os.system("lp -o fit-to-page SmileyFaceImage.png")
+        os.system("lp -o fit-to-page SmileyFaceImage.jpg")
     
     # If the random integer is in the bottom 970 values (lower 97%), it will return False, otherwise it returns True
 
